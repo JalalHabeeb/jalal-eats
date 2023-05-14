@@ -15,30 +15,30 @@ public<br/>
 src<br/>
 └── test<br/>
 └── components<br/>
-    └──Category.js<br/>
-    └──Popular.js<br/>
-    └──Search.js<br/>
-    └──Themes.js<br/>
-    └──Toggler.js<br/>
-    └──useDarkMode.js<br/>
-    └──Veggie.js<br/>
+....└──Category.js<br/>
+....└──Popular.js<br/>
+....└──Search.js<br/>
+....└──Themes.js<br/>
+....└──Toggler.js<br/>
+....└──useDarkMode.js<br/>
+....└──Veggie.js<br/>
 └── pages<br/>
-    └──Cuisine.js<br/>
-    └──Home.js<br/>
-    └──Pages.js<br/>
-    └──Recipe.js<br/>
-    └──Searched.js<br/>
+....└──Cuisine.js<br/>
+....└──Home.js<br/>
+....└──Pages.js<br/>
+....└──Recipe.js<br/>
+....└──Searched.js<br/>
 └── style<br/>
-    └──App.css<br/>
-    └──AppStyle.js<br/>
-    └──CategoryStyle.js<br/>
-    └──CuisineStyle.js<br/>
-    └──globalStyle.js<br/>
-    └──index.css<br/>
-    └──PopularStyle.js<br/>
-    └──RecipeStyle.js<br/>
-    └──SearchStyle.js<br/>
-    └──TogglesStyle.js<br/>
+....└──App.css<br/>
+....└──AppStyle.js<br/>
+....└──CategoryStyle.js<br/>
+....└──CuisineStyle.js<br/>
+....└──globalStyle.js<br/>
+....└──index.css<br/>
+....└──PopularStyle.js<br/>
+....└──RecipeStyle.js<br/>
+....└──SearchStyle.js<br/>
+....└──TogglesStyle.js<br/>
 └── App.js<br/>
 └──index.js<br/>
 
