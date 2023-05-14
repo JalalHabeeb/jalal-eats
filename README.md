@@ -10,8 +10,8 @@ Each recipe page contains a photo of the recipe and two buttons, one shows the i
 
 ## App Structure
 
-public
-└── index.html
+public<br/>
+└── index.html<br/>
 src
 └── test
 └── components
