@@ -1,70 +1,51 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Jalal Eats
 
-## Available Scripts
+![Header](https://raw.githubusercontent.com/JalalHabeeb/weather-mood/main/linkin-park.JPG "Jalal Eats")
 
-In the project directory, you can run:
+A React app that fetches data about food and recipes.
+Home page shows two kinds of food, one is specialized for vegetarians and the other is the popular recipes nowadays for everyone.
+There are 4 pages for 4 kinds of food to choose from: American, Italian, Thai and Japanese food. Each page fetches special food from the chosen country.
+Each recipe page contains a photo of the recipe and two buttons, one shows the ingredients and the other shows instruction and preparation.
 
-### `npm start`
+## App Structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+public
+└── index.html
+src
+└── test
+└── components
+    └──Category.js
+    └──Popular.js
+    └──Search.js
+    └──Themes.js
+    └──Toggler.js
+    └──useDarkMode.js
+    └──Veggie.js
+└── pages
+    └──Cuisine.js
+    └──Home.js
+    └──Pages.js
+    └──Recipe.js
+    └──Searched.js
+└── style
+    └──App.css
+    └──AppStyle.js
+    └──CategoryStyle.js
+    └──CuisineStyle.js
+    └──globalStyle.js
+    └──index.css
+    └──PopularStyle.js
+    └──RecipeStyle.js
+    └──SearchStyle.js
+    └──TogglesStyle.js
+└── App.js
+└──index.js
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## App description
 
-### `npm test`
+Multi-pages React app that fetches food data from <https://spoonacular.com/food-api> and uses this data to categorize food in many categories.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+It contains a search functionality you can use it to search for a recipe according to it's name or ingredients.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Light/Dark mode functionality for the user to choose the best mode that suits them.
