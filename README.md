@@ -1,7 +1,7 @@
 
 # Jalal Eats
 
-![Header](https://raw.githubusercontent.com/JalalHabeeb/weather-mood/main/linkin-park.JPG "Jalal Eats")
+![Header](https://github.com/JalalHabeeb/jalal-eats/blob/main/public/jalal-eats-readme.jpg "Jalal Eats")
 
 A React app that fetches data about food and recipes.
 Home page shows two kinds of food, one is specialized for vegetarians and the other is the popular recipes nowadays for everyone.
