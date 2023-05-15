@@ -10,37 +10,37 @@ Each recipe page contains a photo of the recipe and two buttons, one shows the i
 
 ## App Structure
 
-public<br/>
-└── index.html<br/>
-src<br/>
-└── test<br/>
-└── components<br/>
-....└──Category.js<br/>
-....└──Popular.js<br/>
-....└──Search.js<br/>
-....└──Themes.js<br/>
-....└──Toggler.js<br/>
-....└──useDarkMode.js<br/>
-....└──Veggie.js<br/>
-└── pages<br/>
-....└──Cuisine.js<br/>
-....└──Home.js<br/>
-....└──Pages.js<br/>
-....└──Recipe.js<br/>
-....└──Searched.js<br/>
-└── style<br/>
-....└──App.css<br/>
-....└──AppStyle.js<br/>
-....└──CategoryStyle.js<br/>
-....└──CuisineStyle.js<br/>
-....└──globalStyle.js<br/>
-....└──index.css<br/>
-....└──PopularStyle.js<br/>
-....└──RecipeStyle.js<br/>
-....└──SearchStyle.js<br/>
-....└──TogglesStyle.js<br/>
-└── App.js<br/>
-└──index.js<br/>
+public
+└── index.html
+src
+└── test
+└── components
+    └──Category.js
+    └──Popular.js
+    └──Search.js
+    └──Themes.js
+    └──Toggler.js
+    └──useDarkMode.js
+    └──Veggie.js
+└── pages
+    └──Cuisine.js
+    └──Home.js
+    └──Pages.js
+    └──Recipe.js
+    └──Searched.js
+└── style
+    └──App.css
+    └──AppStyle.js
+    └──CategoryStyle.js
+    └──CuisineStyle.js
+    └──globalStyle.js
+    └──index.css
+    └──PopularStyle.js
+    └──RecipeStyle.js
+    └──SearchStyle.js
+    └──TogglesStyle.js
+└── App.js
+└──index.js
 
 ## App description
 
