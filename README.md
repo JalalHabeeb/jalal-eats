@@ -2,7 +2,8 @@
 # Jalal Eats
 
 ![Header](https://github.com/JalalHabeeb/jalal-eats/blob/main/public/jalal-eats-readme.jpg "Jalal Eats")
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2ad31ae0-098f-42c3-99c3-b84438be6cd4/deploy-status)](https://app.netlify.com/sites/beautiful-palmier-8dd27b/deploys)
+
+https://beautiful-palmier-8dd27b.netlify.app/
 
 A React app that fetches data about food and recipes.
 Home page shows two kinds of food, one is specialized for vegetarians and the other is the popular recipes nowadays for everyone.
